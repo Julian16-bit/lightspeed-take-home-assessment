@@ -1,0 +1,31 @@
+ticket_id,merchant_id,category,priority,description,resolution,status,created_at,resolved_at,channel
+T1001,M001,Reporting,High,"Reports are timing out during peak hours.","Increased timeout threshold and optimized query.",Closed,2024-01-02,2024-01-03,Email
+T1002,M002,Payments,Urgent,"Transactions failing intermittently.","Reset payment gateway integration.",Closed,01/05/2024,01/05/2024,Phone
+T1003,M003,Onboarding,Medium,"Need help setting up inventory import.","Provided step-by-step guide.",Closed,2024-01-07,2024-01-08,Chat
+T1004,M004,Hardware,High,"Card reader disconnects randomly.","Replaced faulty device.",Closed,2024/01/08,2024/01/10,Phone
+T1005,M005,POS Performance,Urgent,"Register freezes during checkout.","Patched memory leak issue.",Closed,2024-01-09,2024-01-09,Email
+T1006,M006,Payments,Low,"Question about transaction fees.","Explained pricing structure.",Closed,2024-01-10,2024-01-11,Chat
+T1007,M001,Inventory,Medium,"Stock levels not updating in real time.","Synced database manually.",Closed,2024-01-12,2024-01-13,Email
+T1008,M002,Reporting,High,"Cannot export sales data.","Fixed export formatting bug.",Closed,2024-01-14,2024-01-15,Chat
+T1009,M007,Support Quality,Low,"Appreciation for quick help.","No action required.",Closed,2024-01-15,2024-01-15,Email
+T1010,M008,UX,Medium,"Navigation between tabs is confusing.","Shared upcoming UI improvements.",Pending,2024-01-16,,Chat
+T1011,M009,Payments,Urgent,"Multiple declined transactions reported.","Escalated to payment processor.",Open,2024-01-17,,Phone
+T1012,M010,Integrations,High,"Issue syncing with accounting software.","Updated API credentials.",Closed,2024-01-18,2024-01-19,Email
+T1013,M011,Hardware,Medium,"Printer not responding.","Restarted device and updated firmware.",Closed,2024-01-19,2024-01-20,Phone
+T1014,M012,Reporting,Low,"Request for custom report filters.","Logged feature request.",Closed,2024-01-20,2024-01-21,Chat
+T1015,M013,POS Performance,High,"App slows down after prolonged use.","Optimized background processes.",Closed,2024-01-21,2024-01-22,Email
+T1016,M014,Onboarding,Medium,"Training staff on POS features.","Provided training webinar.",Closed,2024-01-22,2024-01-23,Chat
+T1017,M015,Payments,Urgent,"Payment terminal offline.","Reset terminal and reconnected network.",Closed,2024-01-23,2024-01-23,Phone
+T1018,M016,Inventory,Low,"Minor delay in stock sync.","Scheduled sync optimization.",Closed,2024-01-24,2024-01-25,Email
+T1019,M017,UX,Medium,"Too many steps to process refunds.","Shared refund workflow documentation.",Closed,2024-01-25,2024-01-26,Chat
+T1020,M018,POS Performance,High,"System crash during lunch rush.","Applied emergency patch.",Closed,2024-01-26,2024-01-26,Phone
+T1021,M019,Payments,Urgent,"Terminal disconnects frequently.","Replaced payment terminal.",Closed,2024-01-27,2024-01-28,Phone
+T1022,M020,Reporting,Medium,"Sales summary inaccurate.","Corrected calculation logic.",Closed,2024-01-28,2024-01-29,Email
+T1023,M001,Integrations,High,"API integration with eCom failing.","Regenerated API keys.",Closed,2024-01-29,2024-01-30,Chat
+T1024,M003,Inventory,Medium,"Duplicate SKUs appearing.","Removed duplicate entries.",Closed,2024-01-30,2024-01-31,Email
+T1025,M021,UX,Low,"Interface feels outdated.","Forwarded to product team.",Closed,2024-02-01,2024-02-02,Chat
+T1026,M022,Onboarding,Medium,"Confusion during initial setup.","Improved setup documentation.",Closed,2024-02-02,2024-02-03,Email
+T1027,M023,Payments,High,"Refunds not processing.","Reset refund configuration.",Closed,2024-02-03,2024-02-04,Phone
+T1028,,Reporting,Medium,"Need breakdown by product category.","Feature request logged.",Pending,2024-02-04,,Chat
+T1029,M025,Hardware,Low,"Scanner occasionally misreads barcodes.","Cleaned sensor and recalibrated.",Closed,2024-02-05,2024-02-06,Email
+T1030,M002,POS Performance,Urgent,"Checkout froze completely.","Restarted POS and applied patch.",Closed,2024-02-06,2024-02-06,Phone

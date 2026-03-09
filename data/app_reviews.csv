@@ -1,0 +1,31 @@
+review_id,merchant_id,rating,review_text,date,platform,app_version,country
+R001,M001,4,"Great POS system but reporting is slow during peak hours.",2024-01-02,iOS,3.2.1,CA
+R002,M002,2,"App crashes when processing payments.",01/30/2024,Android,3.2.0,US
+R003,M003,5,"Very intuitive interface and easy onboarding.",2024-01-07,iOS,3.1.9,UK
+R004,M004,3,"Good features but hardware integration needs improvement.",2024-01-08,Android,3.2.1,CA
+R005,M005,1,"Support is unresponsive and checkout freezes.",2024/01/09,iOS,3.0.5,US
+R006,M006,4,"Payments are smooth and reliable.",2024-01-10,iOS,3.2.1,AU
+R007,M001,3,"Inventory sync is sometimes delayed.",2024-01-12,Android,3.2.1,CA
+R008,M002,2,"Reporting dashboard lacks customization.",2024-01-14,iOS,3.2.0,US
+R009,M007,5,"Best POS we've used so far!",2024-01-15,Android,3.2.2,CA
+R010,M008,4,"Checkout flow is fast but UX could be cleaner.",2024-01-16,iOS,3.1.8,US
+R011,M009,1,"Transactions fail during peak hours.",2024-01-17,Android,3.2.1,CA
+R012,M010,5,"Excellent customer support response time.",2024-01-18,iOS,3.2.1,UK
+R013,M011,3,"Hardware pairing took longer than expected.",2024-01-19,Android,3.0.9,US
+R014,M012,4,"Analytics tools are very useful.",2024-01-20,iOS,3.2.1,CA
+R015,M013,2,"App is slow when switching between tabs.",2024-01-21,Android,3.2.0,US
+R016,M014,5,"Seamless integration with our payment processor.",2024-01-22,iOS,3.2.2,AU
+R017, m015 ,3,"Training staff was slightly confusing.",2024-01-23,Android,3.2.1,CA
+R018,M016,4,"Inventory tracking works well overall.",2024-01-24,iOS,3.1.7,US
+R019,M017,2,"Frequent logout issues.",2024-01-25,Android,3.2.1,UK
+R020,M018,5,"Love the speed and simplicity.",2024-01-26,iOS,3.2.2,CA
+R021,M019,1,"Payment terminal disconnects randomly.",2024-01-27,Android,3.0.8,US
+R022,M020,4,"Good experience but needs better reporting filters.",2024-01-28,iOS,3.2.1,CA
+R023,M001,5,"Recent updates improved performance significantly.",2024-01-29,Android,3.2.3,CA
+R024,M003,2,"Customer receipts not sending consistently.",2024-01-30,iOS,3.2.0,UK
+R025,M021,3,"UI feels outdated compared to competitors.",2024-02-01,Android,3.1.9,US
+R026,M022,4,"Easy to set up and deploy.",2024-02-02,iOS,3.2.2,CA
+R027,M023,5,"Reliable system for daily operations.",2024-02-03,Android,3.2.2,AU
+R028,M024,2,"Refund process is too complicated.",2024-02-04,iOS,3.2.1,US
+R029,M025,4,"Overall satisfied but minor glitches remain.",2024-02-05,Android,3.2.0,CA
+R030,M002,1,"App completely froze during checkout.",2024-02-06,iOS,3.2.3,US

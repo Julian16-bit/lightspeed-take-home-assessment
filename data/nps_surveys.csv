@@ -1,0 +1,31 @@
+merchant_id,score,feedback_text,survey_date,product_area
+M001,9,The POS system works great during busy hours,02-01-2024,POS
+M002,4,Payments occasionally fail and it slows down checkout,05-01-2024,Payments
+M003,7,Reporting is helpful but exporting data could be easier,08-01-2024,Reporting
+M004,10,Very happy with the platform overall,10-01-2024,General
+M005,3,Customer support took too long to resolve my issue,12-01-2024,Support
+M006,8,Inventory tracking works well for our store,14-01-2024,Inventory
+M007,6,POS works but the interface could be more intuitive,16-01-2024,POS
+M008,5,We sometimes experience lag when processing payments,18-01-2024,Payments
+M009,9,Love the analytics dashboard,20-01-2024,Reporting
+M010,2,System crashes occasionally during peak hours,22-01-2024,Reliability
+M011,8,Setup was easy and onboarding documentation was clear,25-01-2024,Onboarding
+M012,7,Integration with our accounting software works well,28-01-2024,Integrations
+M013,4,The hardware terminals disconnect randomly,30-01-2024,Hardware
+M014,9,Customer insights in reporting are very useful,02-02-2024,Reporting
+M015,6,Payments work fine but transaction history is confusing,05-02-2024,Payments
+M016,10,Best POS solution we've used so far,08-02-2024,POS
+M017,3,Support responses feel automated and not helpful,11-02-2024,Support
+M018,7,The mobile POS works well but could be faster,14-02-2024,POS
+M019,8,Great integration with our eCommerce store,17-02-2024,Integrations
+M020,5,Inventory syncing sometimes gets delayed,20-02-2024,Inventory
+M-021,6,Overall good but the UI could use improvements,23-02-2024,UX
+M022,9,Our staff picked up the system quickly,26-02-2024,Onboarding
+M023,2,Payment processing failed multiple times last week,01-03-2024,Payments
+M024,8,Reporting tools save us a lot of time,04-03-2024,Reporting
+M025,7,Hardware setup was easy but instructions could be clearer,07-03-2024,Hardware
+M026,4,Too many steps to complete simple tasks,10-03-2024,UX
+M027,10,Very reliable and easy to use system,13-03-2024,Reliability
+M028,6,Customer support eventually fixed our issue,16-03-2024,Support
+M029,8,POS interface is clean and easy for staff to learn,19-03-2024,POS
+M030,5,Would like more customization options in reporting,22-03-2024,Reporting

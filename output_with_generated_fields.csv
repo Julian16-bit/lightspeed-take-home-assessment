@@ -1,0 +1,86 @@
+merchant_id,source_type,content,raw_score,date,sentiment,subject
+M001,app_store,Great POS system but reporting is slow during peak hours.,8.0,2024-01-02,Negative,Reporting & Analytics
+M003,app_store,Very intuitive interface and easy onboarding.,10.0,2024-01-07,Positive,User Experience (UX)
+M004,app_store,Good features but hardware integration needs improvement.,6.0,2024-01-08,Negative,Hardware
+M006,app_store,Payments are smooth and reliable.,8.0,2024-01-10,Positive,Payments
+M001,app_store,Inventory sync is sometimes delayed.,6.0,2024-01-12,Negative,Reliability & Stability
+M002,app_store,Reporting dashboard lacks customization.,4.0,2024-01-14,Negative,Reporting & Analytics
+M007,app_store,Best POS we've used so far!,10.0,2024-01-15,Positive,POS Performance
+M008,app_store,Checkout flow is fast but UX could be cleaner.,8.0,2024-01-16,Neutral,User Experience (UX)
+M009,app_store,Transactions fail during peak hours.,2.0,2024-01-17,Negative,Reliability & Stability
+M010,app_store,Excellent customer support response time.,10.0,2024-01-18,Positive,Support Quality
+M011,app_store,Hardware pairing took longer than expected.,6.0,2024-01-19,Frustrated,Hardware
+M012,app_store,Analytics tools are very useful.,8.0,2024-01-20,Positive,Reporting & Analytics
+M013,app_store,App is slow when switching between tabs.,4.0,2024-01-21,Negative,User Experience (UX)
+M014,app_store,Seamless integration with our payment processor.,10.0,2024-01-22,Positive,Integrations
+M015,app_store,Training staff was slightly confusing.,6.0,2024-01-23,Negative,Onboarding & Training
+M016,app_store,Inventory tracking works well overall.,8.0,2024-01-24,Positive,Other
+M017,app_store,Frequent logout issues.,4.0,2024-01-25,Frustrated,Reliability & Stability
+M018,app_store,Love the speed and simplicity.,10.0,2024-01-26,Positive,User Experience (UX)
+M019,app_store,Payment terminal disconnects randomly.,2.0,2024-01-27,Negative,Reliability & Stability
+M020,app_store,Good experience but needs better reporting filters.,8.0,2024-01-28,Positive,Reporting & Analytics
+M001,app_store,Recent updates improved performance significantly.,10.0,2024-01-29,Positive,POS Performance
+M003,app_store,Customer receipts not sending consistently.,4.0,2024-01-30,Frustrated,Reliability & Stability
+M021,app_store,UI feels outdated compared to competitors.,6.0,2024-02-01,Negative,User Experience (UX)
+M022,app_store,Easy to set up and deploy.,8.0,2024-02-02,Positive,Onboarding & Training
+M023,app_store,Reliable system for daily operations.,10.0,2024-02-03,Positive,Reliability & Stability
+M024,app_store,Refund process is too complicated.,4.0,2024-02-04,Negative,Payments
+M025,app_store,Overall satisfied but minor glitches remain.,8.0,2024-02-05,Positive,Reliability & Stability
+M002,app_store,App completely froze during checkout.,2.0,2024-02-06,Frustrated,Reliability & Stability
+M001,support,Reports are timing out during peak hours.,,2024-01-02,Negative,Reliability & Stability
+M003,support,Need help setting up inventory import.,,2024-01-07,Neutral,Onboarding & Training
+M005,support,Register freezes during checkout.,,2024-01-09,Frustrated,POS Performance
+M006,support,Question about transaction fees.,,2024-01-10,Neutral,Pricing & Billing
+M001,support,Stock levels not updating in real time.,,2024-01-12,Negative,Reliability & Stability
+M002,support,Cannot export sales data.,,2024-01-14,Frustrated,Reporting & Analytics
+M007,support,Appreciation for quick help.,,2024-01-15,Positive,Support Quality
+M008,support,Navigation between tabs is confusing.,,2024-01-16,Frustrated,User Experience (UX)
+M009,support,Multiple declined transactions reported.,,2024-01-17,Frustrated,Payments
+M010,support,Issue syncing with accounting software.,,2024-01-18,Negative,Integrations
+M011,support,Printer not responding.,,2024-01-19,Negative,Hardware
+M012,support,Request for custom report filters.,,2024-01-20,Neutral,Reporting & Analytics
+M013,support,App slows down after prolonged use.,,2024-01-21,Negative,POS Performance
+M014,support,Training staff on POS features.,,2024-01-22,Neutral,Onboarding & Training
+M015,support,Payment terminal offline.,,2024-01-23,Frustrated,Payments
+M016,support,Minor delay in stock sync.,,2024-01-24,Neutral,Reliability & Stability
+M017,support,Too many steps to process refunds.,,2024-01-25,Frustrated,Payments
+M018,support,System crash during lunch rush.,,2024-01-26,Frustrated,Reliability & Stability
+M019,support,Terminal disconnects frequently.,,2024-01-27,Negative,Reliability & Stability
+M020,support,Sales summary inaccurate.,,2024-01-28,Negative,Reporting & Analytics
+M001,support,API integration with eCom failing.,,2024-01-29,Frustrated,Integrations
+M003,support,Duplicate SKUs appearing.,,2024-01-30,Negative,Other
+M021,support,Interface feels outdated.,,2024-02-01,Negative,User Experience (UX)
+M022,support,Confusion during initial setup.,,2024-02-02,Negative,Onboarding & Training
+M023,support,Refunds not processing.,,2024-02-03,Negative,Payments
+M025,support,Scanner occasionally misreads barcodes.,,2024-02-05,Negative,Hardware
+M002,support,Checkout froze completely.,,2024-02-06,Frustrated,Reliability & Stability
+M001,nps_survey,The POS system works great during busy hours,9.0,2024-01-02,Positive,POS Performance
+M002,nps_survey,Payments occasionally fail and it slows down checkout,4.0,2024-01-05,Frustrated,Payments
+M003,nps_survey,Reporting is helpful but exporting data could be easier,7.0,2024-01-08,Positive,Reporting & Analytics
+M004,nps_survey,Very happy with the platform overall,10.0,2024-01-10,Positive,User Experience (UX)
+M005,nps_survey,Customer support took too long to resolve my issue,3.0,2024-01-12,Frustrated,Support Quality
+M006,nps_survey,Inventory tracking works well for our store,8.0,2024-01-14,Positive,Other
+M007,nps_survey,POS works but the interface could be more intuitive,6.0,2024-01-16,Negative,User Experience (UX)
+M008,nps_survey,We sometimes experience lag when processing payments,5.0,2024-01-18,Negative,Payments
+M009,nps_survey,Love the analytics dashboard,9.0,2024-01-20,Positive,Reporting & Analytics
+M010,nps_survey,System crashes occasionally during peak hours,2.0,2024-01-22,Negative,Reliability & Stability
+M011,nps_survey,Setup was easy and onboarding documentation was clear,8.0,2024-01-25,Positive,Onboarding & Training
+M012,nps_survey,Integration with our accounting software works well,7.0,2024-01-28,Positive,Integrations
+M013,nps_survey,The hardware terminals disconnect randomly,4.0,2024-01-30,Negative,Hardware
+M014,nps_survey,Customer insights in reporting are very useful,9.0,2024-02-02,Positive,Reporting & Analytics
+M015,nps_survey,Payments work fine but transaction history is confusing,6.0,2024-02-05,Frustrated,Payments
+M016,nps_survey,Best POS solution we've used so far,10.0,2024-02-08,Positive,POS Performance
+M017,nps_survey,Support responses feel automated and not helpful,3.0,2024-02-11,Frustrated,Support Quality
+M018,nps_survey,The mobile POS works well but could be faster,7.0,2024-02-14,Positive,POS Performance
+M019,nps_survey,Great integration with our eCommerce store,8.0,2024-02-17,Positive,Integrations
+M020,nps_survey,Inventory syncing sometimes gets delayed,5.0,2024-02-20,Negative,Reliability & Stability
+M021,nps_survey,Overall good but the UI could use improvements,6.0,2024-02-23,Neutral,User Experience (UX)
+M022,nps_survey,Our staff picked up the system quickly,9.0,2024-02-26,Positive,Onboarding & Training
+M023,nps_survey,Payment processing failed multiple times last week,2.0,2024-03-01,Frustrated,Payments
+M024,nps_survey,Reporting tools save us a lot of time,8.0,2024-03-04,Positive,Reporting & Analytics
+M025,nps_survey,Hardware setup was easy but instructions could be clearer,7.0,2024-03-07,Neutral,Hardware
+M026,nps_survey,Too many steps to complete simple tasks,4.0,2024-03-10,Frustrated,User Experience (UX)
+M027,nps_survey,Very reliable and easy to use system,10.0,2024-03-13,Positive,Reliability & Stability
+M028,nps_survey,Customer support eventually fixed our issue,6.0,2024-03-16,Positive,Support Quality
+M029,nps_survey,POS interface is clean and easy for staff to learn,8.0,2024-03-19,Positive,User Experience (UX)
+M030,nps_survey,Would like more customization options in reporting,5.0,2024-03-22,Neutral,Feature Request
