@@ -148,8 +148,8 @@ with tab3:
     - Support tickets show the most negative sentiment (77.7%), while surveys are predominantly positive (53.3%)
 
     **Theme Performance:**
-    - Highest rated: POS Performance (9.2/10) and Integration (7.5/10)
-    - Lowest rated: Reliability & Stability (3.7/10) and Pricing & Billing (2.5/10)
+    - Highest rated: POS Performance (9.2/10) and Integration (8.3/10)
+    - Lowest rated: Reliability & Stability (5.0/10) and Payments (4.8/10)
                 
     **Feedback Volume:**
     - Most discussed: Reliability & Stability (17 entries)

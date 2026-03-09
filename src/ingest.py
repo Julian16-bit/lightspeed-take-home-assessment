@@ -12,6 +12,7 @@ class IngestFeedback:
         return pd.read_csv(self.file_path)
 
     def standardize_columns(self, df):
+        """Rename columns to a unified schema and reorder to standard"""
         mapping = {
                 "review_text": "content",
                 "description": "content",
@@ -21,15 +22,16 @@ class IngestFeedback:
                 "created_at": "date",
                 "survey_date": "date"
             }
-        
+
         df = df.rename(columns=mapping)
 
         df["source_type"] = self.source
         standard_cols = ["merchant_id", "source_type", "content", "raw_score", "date"]
 
         return df.reindex(columns=standard_cols)
-    
+
     def standardize_dates(self, df):
+        """Parse dates from source-specific formats and normalize to YYYY-MM-DD"""
         date_formats = {
             "nps_survey": "%d-%m-%Y",
             "app_store": "%Y-%m-%d",
@@ -43,26 +45,29 @@ class IngestFeedback:
         return df
 
     def clean_merchant_ids(self, df):
+        """Normalize merchant IDs to uppercase alphanumeric format and remove null entries"""
         def normalize_merchant_ids(merchant_id):
             if pd.isna(merchant_id):
                 return None
-            
+
             merchant_id = str(merchant_id).strip().upper()
             merchant_id = re.sub(r"[^A-Z0-9]", "", merchant_id)
 
             return merchant_id
-        
+
         df["merchant_id"] = df["merchant_id"].apply(normalize_merchant_ids)
         df = df.dropna(subset=["merchant_id"])
 
         return df
-    
+
     def normalize_scores(self, df):
+        """Convert all scores to a 0-10 scale (app store ratings are multiplied by 2)"""
         if self.source == "app_store":
             df["raw_score"] = df["raw_score"]*2
         return df
 
 def full_ingestion():
+    """Ingest and standardize feedback from all sources into a unified dataframe"""
     sources = [
         IngestFeedback("app_store", "data/app_reviews.csv"),
         IngestFeedback("support", "data/support_tickets.csv"),

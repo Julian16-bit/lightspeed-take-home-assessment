@@ -119,6 +119,10 @@ flowchart TD
 **Models Used**
 - **GPT-5-nano**: Used for sentiment classification and theme categorization. A smaller model provides solid accuracy while keeping latency and cost low.
 - **GPT-5-mini**: Used for merchant feedback summarization. A larger model is beneficial for synthesizing multiple feedback entries and producing coherent summaries
+
+**Hallucination Mitigation**
+- Structured Output: Used OpenAI's built-in functionality to generate responses in structured (JSON) format and Literal type hints to restrict output to specific values
+- Inserting Real Data: Prompts include the actual merchant feedback formatted data so the model bases its analysis on concrete inputs
 ---
 
 ## Data Quality Handling
@@ -154,12 +158,14 @@ pip install -r requirements.txt
 ```
 
 ### Requirements
-- Python 3.8+
+- Python 3.12
 - pandas
 - openai
 - pydantic
 - streamlit
 - plotly
+- python-dotenv
+- altair
 
 ### Environment Setup
 
@@ -181,7 +187,7 @@ python main.py
 This will:
 1. Ingest data from all sources
 2. Clean and standardize
-3. Apply AI enrichment
+3. Apply AI enrichment (will take around 3 minutes)
 4. Save to `output_with_generated_fields.csv`
 
 ### Launch Dashboard
