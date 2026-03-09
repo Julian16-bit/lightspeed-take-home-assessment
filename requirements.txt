@@ -3,3 +3,5 @@ openai
 pydantic
 streamlit
 plotly
+python-dotenv
+altair<5
