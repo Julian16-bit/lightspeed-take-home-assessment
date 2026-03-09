@@ -1,7 +1,5 @@
 # Customer Feedback Monitoring Application
 
-A data pipeline and dashboard for analyzing customer feedback from multiple sources, providing automated sentiment analysis, theme extraction, and AI powered merchant insights.
-
 ## Overview
 
 This application ingests customer feedback from multiple channels (app reviews, NPS surveys, support tickets), processes and standardizes the data, applies AI powered analysis for sentiment and theme extraction, and presents actionable insights through an interactive Streamlit dashboard.
